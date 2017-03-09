@@ -12,12 +12,16 @@ namespace hpc1
     {
         static void Main(string[] args)
         {
-            using (new MPI.Environment(ref args))
-            {
-                // MPI program goes here!
-                Console.WriteLine("Hello, World! from rank " + Communicator.world.Rank
-                  + " (running on " + MPI.Environment.ProcessorName + ")");
-            }
+            //using (new MPI.Environment(ref args))
+            //{
+            //    // MPI program goes here!
+            //    //Console.WriteLine("Hello, World! from rank " + Communicator.world.Rank
+            //    //  + " (running on " + MPI.Environment.ProcessorName + ")");
+            //    Console.WriteLine(Communicator.world.Rank + "-" + Communicator.world.Size);
+               
+            //}
+
+            EvolutiveParallelAlgotithm.main(args);
         }
     }
 }

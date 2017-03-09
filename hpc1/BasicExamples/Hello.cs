@@ -17,6 +17,7 @@ class Hello
             System.Console.WriteLine("Hello, from process number "
                 + MPI.Communicator.world.Rank.ToString() + " of "
                 + MPI.Communicator.world.Size.ToString());
+
         }
     }
 }
