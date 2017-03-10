@@ -22,6 +22,7 @@ namespace hpc1
             //}
 
             EvolutiveParallelAlgotithm.main(args);
+            //PingPong2.main(args);
         }
     }
 }

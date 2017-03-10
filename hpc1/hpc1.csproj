@@ -50,6 +50,7 @@
     <Compile Include="BasicExamples\Hostnames.cs" />
     <Compile Include="BasicExamples\Pi.cs" />
     <Compile Include="BasicExamples\PingPong.cs" />
+    <Compile Include="BasicExamples\PingPong2.cs" />
     <Compile Include="BasicExamples\Ring.cs" />
     <Compile Include="EvolutiveParallelAlgotithm.cs" />
     <Compile Include="Program.cs" />
